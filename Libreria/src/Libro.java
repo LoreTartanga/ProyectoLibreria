@@ -28,6 +28,13 @@ public class Libro {
 	public void setNif(char nif) {
 		this.nif = nif;
 	}
+	public Libro(int id, int cantidad, boolean leido, char nif) {
+		super();
+		this.id = id;
+		this.cantidad = cantidad;
+		this.leido = leido;
+		this.nif = nif;
+	}
 	
 	
 }
